@@ -22,7 +22,7 @@ export default function Createpost() {
          <ReactQuill theme='snow' 
          placeholder='Write something...' 
          className='h-52 mb-12'
-
+         required
          />
          <Button type='submit' gradientDuoTone='purpleToPink'>
          Publish
