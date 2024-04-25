@@ -18,6 +18,10 @@ const userSchema = new mongoose.Schema({
     profilePicture: {
         type:String,
         default:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbZPi8Q25_Wy5OnIrMEji5_Rk63WhS77URXw&usqp=CAU",
+    },
+    isAdmin: {
+        type: Boolean,
+        default: false,
     }
 },{timestamps:true}
 );
