@@ -14,6 +14,7 @@ It allows users to create, edit, delete, and view blog posts with secure authent
 ✅ RESTful API Architecture – Clean and structured backend.
 
 🛠️ Tech Stack
+
 Frontend:
 React.js
 Tailwind CSS
